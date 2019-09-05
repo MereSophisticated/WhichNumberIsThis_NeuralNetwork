@@ -1,0 +1,15 @@
+C:\Users\micka\source\repos\NevronskaMreža\NevronskaMreža\obj\Debug\NevronskaMreža.csprojAssemblyReference.cache
+C:\Users\micka\source\repos\NevronskaMreža\NevronskaMreža\obj\Debug\MainWindow.g.cs
+C:\Users\micka\source\repos\NevronskaMreža\NevronskaMreža\obj\Debug\App.g.cs
+C:\Users\micka\source\repos\NevronskaMreža\NevronskaMreža\obj\Debug\NevronskaMreža_MarkupCompile.cache
+C:\Users\micka\source\repos\NevronskaMreža\NevronskaMreža\obj\Debug\NevronskaMreža_MarkupCompile.lref
+C:\Users\micka\source\repos\NevronskaMreža\NevronskaMreža\bin\Debug\NevronskaMreža.exe.config
+C:\Users\micka\source\repos\NevronskaMreža\NevronskaMreža\bin\Debug\NevronskaMreža.exe
+C:\Users\micka\source\repos\NevronskaMreža\NevronskaMreža\bin\Debug\NevronskaMreža.pdb
+C:\Users\micka\source\repos\NevronskaMreža\NevronskaMreža\obj\Debug\MainWindow.baml
+C:\Users\micka\source\repos\NevronskaMreža\NevronskaMreža\obj\Debug\NevronskaMreža.g.resources
+C:\Users\micka\source\repos\NevronskaMreža\NevronskaMreža\obj\Debug\NevronskaMreža.Properties.Resources.resources
+C:\Users\micka\source\repos\NevronskaMreža\NevronskaMreža\obj\Debug\NevronskaMreža.csproj.GenerateResource.cache
+C:\Users\micka\source\repos\NevronskaMreža\NevronskaMreža\obj\Debug\NevronskaMreža.csproj.CoreCompileInputs.cache
+C:\Users\micka\source\repos\NevronskaMreža\NevronskaMreža\obj\Debug\NevronskaMreža.exe
+C:\Users\micka\source\repos\NevronskaMreža\NevronskaMreža\obj\Debug\NevronskaMreža.pdb
