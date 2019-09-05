@@ -1,0 +1,49 @@
+﻿<Window x:Class="NevronskaMreža.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NevronskaMreža"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Button x:Name="buttonClear" Click="ButtonClear_Click"  HorizontalAlignment="Center" Height="20" Width="100" Grid.Column="2" Grid.Row="1">Clear</Button>
+            <Button Name="buttonSubmit" Click="ButtonSubmit_Click" HorizontalAlignment="Center" Height="20" Width="100" Grid.Column="1">Submit</Button>
+            <Button Name="buttonSubmitAll" Click="ButtonSubmitAll_Click" HorizontalAlignment="Center" Height="20" Width="100" Grid.Column="1" Grid.Row="1">Submit all</Button>
+            <TextBox Name="textboxThisIS" Width="100" Height="20" HorizontalAlignment="Center" Grid.Row="0" Grid.Column="0"/>
+            <Button x:Name="buttonCheck" Click="ButtonCheck_Click" Width="100" Height="20" Grid.Column="2" >Check</Button>
+
+            <Label  HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="5">Learning rate</Label>
+            <TextBox x:Name="textBoxLearningRate"  Grid.Column="1" Grid.Row="5" Width="100" Height="20" Text="0.3"></TextBox>
+            <Label  HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="6">Epoche</Label>
+            <TextBox x:Name="textBoxEpoche" Grid.Column="1" Grid.Row="6" Width="100" Height="20" Text="3000"></TextBox>
+            <Button x:Name="ChangeSetting" Click="ChangeSetting_Click" Width="100" Height="20" Grid.Column="0" Grid.Row="8">Change settings</Button>
+
+            <!--<Button x:Name="buttonClearAllSubmited" Click="ButtonClearAllSubmited_Click" Width="100" Height="20" Grid.Column="2" Grid.Row="3" >Clear all submited</Button>-->
+        </Grid>
+        <InkCanvas x:Name="DrawingCanvas" Height="450" Width="400" Grid.Column="1" Background="Beige"></InkCanvas>
+        
+    </Grid>
+</Window>
